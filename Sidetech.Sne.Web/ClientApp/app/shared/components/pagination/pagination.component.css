@@ -1,0 +1,14 @@
+﻿.disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.pager-links{
+    margin: -20px;
+}
+
+.display-info{
+    text-align:right;
+    float:right;
+}

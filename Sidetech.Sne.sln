@@ -1,0 +1,140 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Presentation", "0-Presentation", "{9B1F4759-6275-40B5-8027-37A552295C9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Domain", "1-Domain", "{1D2368AF-2A83-4004-B42B-EA4E58718AAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Infra", "2-Infra", "{52DE277A-5F3A-4F5D-A492-D03E441ECAA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Testes", "3-Testes", "{BABFC777-072C-4360-9284-AE4333B6D265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1-Data", "2.1-Data", "{29B2A012-CBC3-402B-8514-E7DFBFFA1CC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2-CrossCutting", "2.2-CrossCutting", "{64BD38BD-E8B9-47D5-A650-F24D379B76F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.Domain", "Sidetech.Sne.Domain\Sidetech.Sne.Domain.csproj", "{DA4A0F51-EE0C-48ED-808F-377BA3805650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.Data", "Sidetech.Sne.Data\Sidetech.Sne.Data.csproj", "{EF976C9A-522A-4133-8D22-3CBBCB767EA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.AccessControl", "Sidetech.Sne.AccessControl\Sidetech.Sne.AccessControl.csproj", "{9F154631-01BF-4876-9A95-9E80CCA8B867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.Web", "Sidetech.Sne.Web\Sidetech.Sne.Web.csproj", "{F462D8CE-9EA9-43BE-A984-63DBA4835AA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.UnitTests.Data", "Sidetech.Sne.UnitTests\Sidetech.Sne.UnitTests.Data\Sidetech.Sne.UnitTests.Data.csproj", "{93EC5546-D4B4-42CF-994E-2B67CB891EC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.UnitTests.Domain", "Sidetech.Sne.UnitTests\Sidetech.Sne.UnitTests.Domain\Sidetech.Sne.UnitTests.Domain.csproj", "{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.UnitTests.Web", "Sidetech.Sne.UnitTests\Sidetech.Sne.UnitTests.Web\Sidetech.Sne.UnitTests.Web.csproj", "{54F1171A-AE88-4188-A5CA-A22E1839816F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidetech.Sne.IoC", "Sidetech.Sne.IoC\Sidetech.Sne.IoC.csproj", "{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sidetech.Sne.DomainService", "Sidetech.Sne.DomainService\Sidetech.Sne.DomainService.csproj", "{40226533-DA8E-4551-A579-A888EB5C81FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA4A0F51-EE0C-48ED-808F-377BA3805650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA4A0F51-EE0C-48ED-808F-377BA3805650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA4A0F51-EE0C-48ED-808F-377BA3805650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA4A0F51-EE0C-48ED-808F-377BA3805650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF976C9A-522A-4133-8D22-3CBBCB767EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF976C9A-522A-4133-8D22-3CBBCB767EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF976C9A-522A-4133-8D22-3CBBCB767EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF976C9A-522A-4133-8D22-3CBBCB767EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F154631-01BF-4876-9A95-9E80CCA8B867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F154631-01BF-4876-9A95-9E80CCA8B867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F154631-01BF-4876-9A95-9E80CCA8B867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F154631-01BF-4876-9A95-9E80CCA8B867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F462D8CE-9EA9-43BE-A984-63DBA4835AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F462D8CE-9EA9-43BE-A984-63DBA4835AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F462D8CE-9EA9-43BE-A984-63DBA4835AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F462D8CE-9EA9-43BE-A984-63DBA4835AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93EC5546-D4B4-42CF-994E-2B67CB891EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EC5546-D4B4-42CF-994E-2B67CB891EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EC5546-D4B4-42CF-994E-2B67CB891EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EC5546-D4B4-42CF-994E-2B67CB891EC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F1171A-AE88-4188-A5CA-A22E1839816F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F1171A-AE88-4188-A5CA-A22E1839816F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F1171A-AE88-4188-A5CA-A22E1839816F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F1171A-AE88-4188-A5CA-A22E1839816F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40226533-DA8E-4551-A579-A888EB5C81FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40226533-DA8E-4551-A579-A888EB5C81FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40226533-DA8E-4551-A579-A888EB5C81FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40226533-DA8E-4551-A579-A888EB5C81FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29B2A012-CBC3-402B-8514-E7DFBFFA1CC1} = {52DE277A-5F3A-4F5D-A492-D03E441ECAA0}
+		{64BD38BD-E8B9-47D5-A650-F24D379B76F9} = {52DE277A-5F3A-4F5D-A492-D03E441ECAA0}
+		{DA4A0F51-EE0C-48ED-808F-377BA3805650} = {1D2368AF-2A83-4004-B42B-EA4E58718AAE}
+		{EF976C9A-522A-4133-8D22-3CBBCB767EA3} = {29B2A012-CBC3-402B-8514-E7DFBFFA1CC1}
+		{9F154631-01BF-4876-9A95-9E80CCA8B867} = {64BD38BD-E8B9-47D5-A650-F24D379B76F9}
+		{F462D8CE-9EA9-43BE-A984-63DBA4835AA9} = {9B1F4759-6275-40B5-8027-37A552295C9E}
+		{93EC5546-D4B4-42CF-994E-2B67CB891EC9} = {BABFC777-072C-4360-9284-AE4333B6D265}
+		{EA4E27B2-B08D-4041-8CF9-1EC6F2CE6E12} = {BABFC777-072C-4360-9284-AE4333B6D265}
+		{54F1171A-AE88-4188-A5CA-A22E1839816F} = {BABFC777-072C-4360-9284-AE4333B6D265}
+		{DFF0E1ED-7E16-425A-8CF5-188FD4722F6F} = {64BD38BD-E8B9-47D5-A650-F24D379B76F9}
+		{40226533-DA8E-4551-A579-A888EB5C81FF} = {1D2368AF-2A83-4004-B42B-EA4E58718AAE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE0726DF-F406-4AF6-9A04-A324AC5BC484}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sidetech.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Sidetech.Sne.AccessControl\\Sidetech.Sne.AccessControl.csproj
+		SccProjectTopLevelParentUniqueName1 = Sidetech.Sne.sln
+		SccProjectName1 = Sidetech.Sne.AccessControl
+		SccLocalPath1 = Sidetech.Sne.AccessControl
+		SccProjectUniqueName2 = Sidetech.Sne.Data\\Sidetech.Sne.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = Sidetech.Sne.sln
+		SccProjectName2 = Sidetech.Sne.Data
+		SccLocalPath2 = Sidetech.Sne.Data
+		SccProjectUniqueName3 = Sidetech.Sne.Domain\\Sidetech.Sne.Domain.csproj
+		SccProjectTopLevelParentUniqueName3 = Sidetech.Sne.sln
+		SccProjectName3 = Sidetech.Sne.Domain
+		SccLocalPath3 = Sidetech.Sne.Domain
+		SccProjectUniqueName4 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Data\\Sidetech.Sne.UnitTests.Data.csproj
+		SccProjectTopLevelParentUniqueName4 = Sidetech.Sne.sln
+		SccProjectName4 = Sidetech.Sne.UnitTests/Sidetech.Sne.UnitTests.Data
+		SccLocalPath4 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Data
+		SccProjectUniqueName5 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Domain\\Sidetech.Sne.UnitTests.Domain.csproj
+		SccProjectTopLevelParentUniqueName5 = Sidetech.Sne.sln
+		SccProjectName5 = Sidetech.Sne.UnitTests/Sidetech.Sne.UnitTests.Domain
+		SccLocalPath5 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Domain
+		SccProjectUniqueName6 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Web\\Sidetech.Sne.UnitTests.Web.csproj
+		SccProjectTopLevelParentUniqueName6 = Sidetech.Sne.sln
+		SccProjectName6 = Sidetech.Sne.UnitTests/Sidetech.Sne.UnitTests.Web
+		SccLocalPath6 = Sidetech.Sne.UnitTests\\Sidetech.Sne.UnitTests.Web
+		SccProjectUniqueName7 = Sidetech.Sne.Web\\Sidetech.Sne.Web.csproj
+		SccProjectTopLevelParentUniqueName7 = Sidetech.Sne.sln
+		SccProjectName7 = Sidetech.Sne.Web
+		SccLocalPath7 = Sidetech.Sne.Web
+		SccProjectUniqueName8 = Sidetech.Sne.IoC\\Sidetech.Sne.IoC.csproj
+		SccProjectTopLevelParentUniqueName8 = Sidetech.Sne.sln
+		SccProjectName8 = Sidetech.Sne.IoC
+		SccLocalPath8 = Sidetech.Sne.IoC
+		SccProjectUniqueName9 = Sidetech.Sne.DomainService\\Sidetech.Sne.DomainService.csproj
+		SccProjectTopLevelParentUniqueName9 = Sidetech.Sne.sln
+		SccProjectName9 = Sidetech.Sne.DomainService
+		SccLocalPath9 = Sidetech.Sne.DomainService
+	EndGlobalSection
+EndGlobal

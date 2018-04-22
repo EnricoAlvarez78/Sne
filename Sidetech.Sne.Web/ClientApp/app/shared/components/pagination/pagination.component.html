@@ -1,0 +1,28 @@
+﻿<div class="col-md-12" *ngIf="count > 0">
+    <div class="col-md-8 pager-links">
+        <ul class="pagination">
+            <li>
+                <a (click)="onPage(1)" [ngClass]="{ 'disabled': page === 1 }" > &laquo; </a>
+            </li>
+            <li>
+                <a (click)="onPrev()" [ngClass]="{ 'disabled': page === 1 }"> &lsaquo; </a>
+            </li>
+            <li *ngFor="let pageNum of getPages()" [ngClass]="{'active': pageNum===page}">
+                <a (click)="onPage(pageNum)">{{ pageNum }}</a>
+            </li>
+            <li>
+                <a (click)="onNext(true)" [ngClass]="{ 'disabled':lastPage() }"> &rsaquo; </a>
+            </li>
+            <li>
+                <a (click)="onPage(totalPages())" [ngClass]="{ 'disabled': lastPage() }"> &raquo; </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-4 display-info">
+        <!--<span class="page-totals">Total de {{ totalPages() }} página(s)</span> - 
+        <span class="page-counts">linha {{ getMin() }} - {{ getMax() }} de {{ count }}</span>-->
+
+        <span class="page-counts">{{ count }} Registros encontrados</span>
+    </div>
+</div>
