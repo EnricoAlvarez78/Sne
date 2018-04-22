@@ -33,4 +33,4 @@ msbuild.wrn
 .vs/
 
 node_modules
-*.log
+*.log 
